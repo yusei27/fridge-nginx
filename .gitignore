@@ -1,0 +1,6 @@
+#distはgitに上げない
+dist
+
+
+#envはgitに上げない
+.env*
