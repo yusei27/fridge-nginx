@@ -5,7 +5,7 @@ FROM nginx:latest
 COPY ./dev/nginx.conf /etc/nginx/nginx.conf
 COPY ./dev/server.conf /etc/nginx/conf.d/server.conf
 #distフォルダの配信　実験用
-COPY ./prod/dist /var/www/html/dist
+COPY ./fridge-system-prod/dist /var/www/dist
 
 
 
